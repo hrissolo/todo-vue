@@ -3,10 +3,15 @@
 </template>
 
 <script>
+    import { todoItems } from "../data";
 
-export default {
-
-}
+    export default {
+    data() {
+        return {
+        todos: [...todoItems],
+        };
+    },
+    };
 </script>
 
 <style>
