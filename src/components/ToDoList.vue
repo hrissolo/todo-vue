@@ -2,7 +2,7 @@
 <div>
   <h1>Hello To Do List</h1>
      <div v-for="item in todos" :key="item.id">
-      <todo-item />
+      <todo-item :todo="item"/>
     </div>
 </div>  
 </template>
