@@ -4,13 +4,15 @@
 
 <script>
     import { todoItems } from "../data";
+    import TodoItem from "./TodoItem.vue"
 
     export default {
-    data() {
-        return {
-        todos: [...todoItems],
-        };
-    },
+        components: {TodoItem},
+        data() {    
+            return {
+                todos: [...todoItems],
+            };
+        },
     };
 </script>
 
