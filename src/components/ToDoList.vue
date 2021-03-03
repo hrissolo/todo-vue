@@ -1,5 +1,10 @@
 <template>
+<div>
   <h1>Hello To Do List</h1>
+     <div v-for="item in todos" :key="item.id">
+      <todo-item />
+    </div>
+</div>  
 </template>
 
 <script>
