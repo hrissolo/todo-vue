@@ -1,26 +1,17 @@
 <template>
-  <div id="app">
-    <todo-list />
-  </div>
+  <v-app>
+    <v-app-bar app color="teal" dark>
+      <div class="d-flex align-center">
+        <h3>Phonebook</h3>
+      </div>
+    </v-app-bar>
+
+    <v-main class="mt-5">
+      <!-- Stuff will go here -->
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import TodoList from "./components/TodoList";
-
-export default {
-  components: {
-    TodoList,
-  },
-};
+export default {};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
