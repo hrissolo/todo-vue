@@ -12,6 +12,6 @@ export const todoItems = [
       {
         id: 3,
         name: "Fold laundry",
-        complete: false,
+        complete: true,
       }
 ]
